@@ -4375,9 +4375,9 @@ INSERT INTO card VALUES(198,'Mitchell-Schoen','complete',141);
 INSERT INTO card VALUES(199,'Bergstrom-Bruen','backlog',101);
 INSERT INTO card VALUES(200,'Breitenberg, Waelchi and Murphy','in-progress',102);
 CREATE TABLE card_change_history (
-    id INTEGER PRIMARY_KEY,
+    id INTEGER PRIMARY KEY,
     cardID INTEGER,
-    oldStatus TEXT NULLABLE,
+    oldStatus TEXT,
     newStatus TEXT,
     oldPriority INTEGER,
     newPriority INTEGER,
